@@ -1,0 +1,48 @@
+:root {
+	--color-primary: rgb(255, 255, 255);
+	--color-secondary: rgb(0, 0, 0);
+	--color-third: rgb(248, 249, 249);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1150px;
+}
+.header {
+	min-height: 900px;
+	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.header__container {
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	min-width: 300px;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: var(--color-primary);
+	padding: 20px;
+	transition: all 0.3s;
+}
+
+.nav__link:hover {
+	color: var(--color-secondary);
+}

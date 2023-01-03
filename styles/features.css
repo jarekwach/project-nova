@@ -1,0 +1,15 @@
+.features {
+	background-color: var(--color-secondary);
+}
+
+.features__container {
+	min-height: 600px;
+}
+
+.features__title {
+	text-transform: uppercase;
+	color: var(--color-primary);
+	text-align: center;
+	padding-top: 50px;
+	font-weight: 300;
+}

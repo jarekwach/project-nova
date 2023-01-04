@@ -1,8 +1,8 @@
 .description__container {
 	width: 100%;
-    margin-top: 40px;
+	margin: 40px 0;
 	display: flex;
-    justify-content: space-evenly;
+	justify-content: space-evenly;
 }
 
 .description__img {
@@ -11,17 +11,15 @@
 
 .description__info {
 	padding: 20px;
-
 }
 
 .description__title {
-    font-weight: normal;
-    text-transform: uppercase;
-    margin-bottom: 40px;
-
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 40px;
 }
 
 .description__text {
-max-width: 400px;
-line-height: 40px;
+	max-width: 400px;
+	line-height: 40px;
 }
